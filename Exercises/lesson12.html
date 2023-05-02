@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise 12</title>
+    <style>
+      p {
+        font-family: Arial;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+    </style>
+  </head>
+  <body style="padding-bottom: 300px;">
+    <!-- 12a. -->
+    <div style="
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 20px;">
+      <div style="
+        background-color:lightblue;
+        width: 200px;">200px</div>
+      <div style="
+        background-color:lightpink;
+        width: 75px;">75px</div>
+    </div>
+
+    <!-- 12b. -->
+    <div style="
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 20px;">
+      <div style="
+        background-color:lightblue;
+        width: 50px;">item1</div>
+      <div style="
+        background-color:lightpink;
+        flex: 1;">item2</div>
+      <div style="
+        background-color:lightblue;
+        width: 75px;">item3</div>
+    </div>
+
+    <!-- 12c. -->
+    <div style="
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 20px;">
+      <div style="
+        background-color:lightpink;
+        ">item1</div>
+      <div style="
+        background-color:lightpink;
+        ">item2</div>
+      <div style="
+        background-color:lightpink;
+        ">item3</div>
+      <div style="
+        background-color:lightpink;
+        ">item4</div>
+    </div>
+
+    <!-- 12d. -->
+    <div style="
+      display: flex;
+      flex-direction: row;
+      height: 50px;
+      justify-content: space-between;
+      border: 1px;
+      border-style: solid;
+      border-color: gray;
+      align-items: center;
+      margin-bottom: 20px;">
+      <div style="
+        background-color:lightpink;
+        ">item1</div>
+      <div style="
+        background-color:lightpink;
+        ">item2</div>
+    </div>
+
+    <!-- 12e. -->
+    <div style="
+      box-shadow: 0 0 1.5px rgba(0, 0, 0, 0.5);
+      width: 250px;
+      height: auto;
+      border-radius: 5px;">
+      <div>
+        <div style="
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          font-family: Arial;
+          margin-top: 5px;">
+        <div style="
+          margin: 8px;
+          ">Home</div>
+        <button style="
+          background-color:rgb(36, 90, 228);
+          font-weight: 600;
+          color: white;
+          border: none;
+          border-radius: 10px;
+          height: 20px;
+          padding: 0px 10px;
+          margin: 8px;
+          ">14</button>
+        </div>
+      </div>
+      <div>
+        <div style="
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          font-family: Arial;">
+        <div style="
+          margin: 8px;
+          ">Notifications</div>
+        <button style="
+          background-color:rgb(36, 90, 228);
+          font-weight: 600;
+          color: white;
+          border: none;
+          border-radius: 10px;
+          height: 20px;
+          padding: 0px 10px;
+          margin: 8px;
+          ">3</button>
+        </div>
+      </div>
+      <div>
+        <div style="
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          font-family: Arial;">
+        <div style="
+          margin: 8px;
+          ">Messages</div>
+        <button style="
+          background-color:rgb(36, 90, 228);
+          font-weight: 600;
+          color: white;
+          border: none;
+          border-radius: 10px;
+          height: 20px;
+          padding: 0px 10px;
+          margin: 8px;
+          ">5</button>
+        </div>
+      </div>
+    </div>
+  
+    <!-- 12f. -->
+    <div style="
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      font-family: Arial;
+      height: 43px;
+      background-color: rgb(135, 57, 212);
+      color: white;
+      align-items: center;
+      margin-top: 30px;">
+      <div style="
+        width: 100px;
+        margin-left: 12px;
+        margin-right: 20px;
+        font-size: 14px;
+        font-weight: 600;
+        ">Home</div>
+      <div style="flex: 1;
+        max-width: 500px;">
+        <input placeholder="Search" type="text" style="
+          border: none;
+          width: 100%;
+          border-radius: 20px;
+          padding: 8px 16px;">
+      </div>
+      <div style="
+        width: 88px;
+        margin-left: 115px;">
+        <button style="
+          border: 1px;
+          border-style: solid;
+          border-color: white;
+          border-radius: 2px;
+          background-color:rgb(135, 57, 212);
+          color: white;
+          padding: 6px 10px;
+          ">Download</button>
+      </div>
+    </div>
+
+    <!-- 12g. -->
+    <div style="width: 350px; margin: 20px;">
+      <div style="">
+        <div style="
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: top;
+          font-family: Arial;
+          margin-bottom: 10px;">
+          <img src="images/cat.jpg" style="
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 50%;
+            ">
+          <div style="
+            flex: 1;
+            ">
+            <p style="font-weight: bold; margin-left: 10px; margin-bottom: 4px;">oliver</p>
+            <p style="color: gray; margin-left: 10px; margin-bottom: 4px;">the cat</p>
+            <p style="color: gray; font-size: 13px; margin-left: 10px; margin-bottom: 4px;">Popular</p></div>
+          <button style="
+            background-color:rgb(54, 142, 236);
+            font-weight: 600;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            height: 32px;
+            width: 62px;
+            margin: 8px;
+            cursor: pointer;
+            ">Follow</button>
+        </div>
+      </div>
+      <div style="margin-bottom: 10px;">
+        <div style="
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: top;
+          font-family: Arial;">
+          <img src="images/cat2.jpg" style="
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 50%;
+            ">
+          <div style="
+            flex: 1;
+            ">
+            <p style="font-weight: bold; margin-left: 10px; margin-bottom: 4px;">Mimi</p>
+            <p style="color: gray; margin-left: 10px; margin-bottom: 4px;">Sleepy Cat</p>
+            <p style="color: gray; font-size: 13px; margin-left: 10px; margin-bottom: 4px;">Popular</p></div>
+          <button style="
+            background-color:rgb(54, 142, 236);
+            font-weight: 600;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            height: 32px;
+            width: 62px;
+            margin: 8px;
+            cursor: pointer;
+            ">Follow</button>
+        </div>
+      </div>
+      <div style="margin-bottom: 10px;">
+        <div style="
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: top;
+          font-family: Arial;">
+          <img src="images/dog.jpg" style="
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 50%;
+            ">
+          <div style="
+            flex: 1;
+            ">
+            <p style="font-weight: bold; margin-left: 10px; margin-bottom: 4px;">Rex</p>
+            <p style="color: gray; margin-left: 10px; margin-bottom: 4px;">Happy Bulldog</p>
+            <p style="color: gray; font-size: 13px; margin-left: 10px; margin-bottom: 4px;">Popular</p>
+          </div>
+          <button style="
+            background-color:rgb(54, 142, 236);
+            font-weight: 600;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            height: 32px;
+            width: 62px;
+            margin: 8px;
+            cursor: pointer;
+            ">Follow
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
