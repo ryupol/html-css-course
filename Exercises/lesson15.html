@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise 15</title>
+    <style>
+      div {
+        font-family: Arial;
+      }
+      .close-button {
+        background-color: black;
+        color: white;
+        font-size: 18px;
+        padding: 10px 15px;
+        border-radius: 50%;
+        cursor: pointer;
+
+        position: absolute;
+        right: 20px;
+        top: 20px;
+      }
+
+      .gray-box {
+        width: 320px;
+        height: 180px;
+        background-color: gray;
+
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1;
+      }
+
+      .close-button2 {
+        background-color: black;
+        color: white;
+        font-size: 18px;
+        padding: 10px 15px;
+        border-radius: 50%;
+        cursor: pointer;
+
+        position: absolute;
+        left: -15px;
+        top: -15px;
+      }
+
+      .timestamp {
+        background-color: black;
+        color: white;
+        font-size: 16px;
+        padding: 5px 10px;
+
+        position: absolute;
+        right: 10px;
+        bottom: 10px;        
+      }
+      .container {
+        position: relative;
+        display: inline-block;
+      }
+      .shirt-image {
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+      }
+      .sale-tag {
+        background-color: black;
+        color: white;
+        padding: 8px 16px;
+        position: absolute;
+        top: 10px;
+        right: 0;
+      }
+      .add-cart-container {
+        background-color: rgba(255, 255, 255, 0.8);
+        height: 110px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+      }
+      .add-cart-button {
+        background-color: white;
+        padding: 10px 15px;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body style="padding-bottom: 3000px;">
+    <!-- 15a. -->
+    <div class="close-button">X</div>
+
+    <!-- 15b. -->
+    <div class="gray-box">
+      <!-- 15c. Close button in gray box -->
+      <div class="close-button2">X</div>
+      <!-- 15d. -->
+      <div class="timestamp">0:29</div>
+    </div>
+    <div class="container">
+      <img class="shirt-image" src="images/shirt.jpg">
+      <div class="sale-tag">20% OFF</div>
+      <div class="add-cart-container">
+        <div class="add-cart-button">Add to Cart</div>
+      </div>
+    </div>
+  </body>
+</html>
