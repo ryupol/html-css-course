@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Exercise 14</title>
+		<style>
+			p {
+				font-family: Arial;
+				margin-top: 0;
+				margin-bottom: 0;
+			}
+		</style>
+	</head>
+	<body style="height: 3000px;">
+		<!-- 14a. -->
+		<div style="
+			position: fixed;
+			background-color: black;
+			color: white;
+			bottom: 20px;
+			right: 20px;
+			z-index: 1;
+			">bottom-right</div>
+
+		<!-- 14b. -->
+		<div style="
+			position: fixed;
+			background-color: green;
+			color: white;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			width: 100px;
+			z-index: 0;
+			">right sidebar</div>
+
+		<!-- 14c. & 14d.(overlay) -->
+		<div style="
+			position: fixed;
+			background-color: rgba(0, 0, 0, 0.8);
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			">
+			<!-- 14d.(modal) -->
+			<div style="
+				background-color: white;
+				width: 360px;
+				height: 140px;
+				border-radius: 10px;
+				padding-left: 20px;
+				">
+				<p style="
+					font-size: 24px;
+					margin-top: 20px;
+					margin-bottom: 15px;
+					font-weight: bold;
+					">Modal Title</p>
+				<p style="
+					margin-bottom: 15px;
+					">This is a modal</p>
+				<button style="
+					cursor: pointer;
+					">Close</button>
+			</div>
+		</div>
+	</body>
+</html>
